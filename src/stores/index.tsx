@@ -2,13 +2,10 @@ import React from 'react';
 
 import './_hydration';
 
-import { AuthStore, TokenType, AuthStatus } from './auth-store';
+import { AuthStore } from './auth-store';
 import { UILanguageStore } from './ui-language-store';
 import { UIThemeStore } from './ui-theme-store';
 import { IStore, PVoid } from './types';
-
-// Re-export types
-export type { TokenType, AuthStatus };
 
 // Centralized stores object
 class Stores {
